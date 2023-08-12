@@ -11,20 +11,17 @@
 
 > Initiation avec docker
 
-    
 ## Install
 
 ```sh
-npm install
+docker build -t mon-projet-node .
 ```
-
 
 ## Usage
 
 ```sh
-npm run start
+docker-compose up
 ```
-
 
 ## Author
 
@@ -32,7 +29,6 @@ npm run start
 
 -   Twitter: [@Gorski_Anthony](https://twitter.com/Gorski_Anthony)
 -   GitHub: [@GorskiAnthony](https://github.com/GorskiAnthony)
-
 
 ## Show your support
 
