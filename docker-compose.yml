@@ -1,0 +1,8 @@
+version: "3" # Version de la syntaxe de Docker Compose.
+
+services:
+    app: # Nom du service.
+        image: mon-projet-node # Image Docker à utiliser pour le service.
+        ports:
+            - "5500:5500" # Mappage du port 5500 de l'hôte au port 5500 du conteneur.
+        container_name: app # Nom du conteneur.
